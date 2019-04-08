@@ -1,5 +1,5 @@
 # INF1000
-My work through the course 'Introduksjon til operativsystemer og datakommunikasjon'.
+My work through the course 'Introduksjon til objektorientert programmering'.
 
 ## Author
 
