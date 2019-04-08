@@ -1,1 +1,2 @@
-# IN1000
+# INF1000
+Introduksjon til objektorientertprogrammering

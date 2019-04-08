@@ -1,0 +1,49 @@
+Oppgave 3.1) 
+a) Beskriv programflyten med ord når den første forelesningen er fra 10 til 12
+   og den andre er fra 11 til 13.
+
+	- Om vi i denne koden setter inn 10 i start1, 12 i slutt1, 13 i slutt2 og 11 i slutt2, og sjekke om de overlapper hverandre så vil de det. 
+	  fordi forelesning 1 starter kl.10 og slutter 12, men forelesning 2 starter 11 og slutter kl.13. Som vil si at de overlapper og koden vil da 
+	  hoppe til else{} setningen og skrive ut Forelesningene overlapper. 
+
+		if(12 <= 11 || 13 <= 10){
+		System.out.println("Forelesningene overlapper ikke.");
+		} 
+	  Vi ser her at 12 er ikke mindre enn 11 eller 13 er ikke mindre enn 10 og vil derfor ikke tilfredstillet kravet. Med andre ord forelesningene 
+          overlapper.
+
+b) Beskrive programflyten med ord når den første forelesningen er fra 10 til 11 og den andre er fra 12 til 13. 
+	
+	- Om vi setter inn 11 i slutt1, 10 i start1 i forelesning 1 og 13 i slutt2, 13 i start 1 kan vi se at koden
+	  ser følgende ut: 
+		
+		if(11 <= 12 || 13 <= 10){
+		System.out.println("Forelesningene overlapper ikke.");
+		} 
+	
+ 	  Vi ser her at 11 vil bli mindre enn 12 og koden vil derfor skrive ut at forelesninger ikke overlapper. 
+	  Fordi koden tilfredstiller kravet om at at forelesningene ikke skal overlappe. 
+
+c) Hvilke andre tidspunkter ville det være lurt å sjekke med denne metoden? 
+   Begrunn svaret ditt. 
+
+	- if(13 <= 11 || 12 <= 10){
+		System.out.println("Forelesningene overlapper ikke.");
+		} 
+
+	Denne kan sjekkes ut. Tidspunkt som ikke er sjekket. Her vil det skrives ut forelesningene overlapper. Fordi if-løkken tilfredstilles ikke. 
+	Og dermed vil skriveren hoppe til else-statement og skrive ut forelesning overlapper. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

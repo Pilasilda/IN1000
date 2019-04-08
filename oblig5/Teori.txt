@@ -1,0 +1,41 @@
+Oppgave 5.2)
+Tema: Teorioppgave
+Filnavn: Teori.txt
+Gi korte svar på spørsmålene under:
+a) Hva er grensesnittet til en klasse? Hvordan skiller det seg fra implementasjonen
+av en klasse?
+	- Grensesnitt: metoder som er offentlige i klassen. 
+	- Forskjellen er at vi ved hjelp av grensesnittet gjennomfører klassens metoder
+	
+b) Hva er en instansmetode og hvordan skiller den seg fra en statisk metode
+(slike metoder vi har jobbet med tidligere)? Forklar dette ved å vise til både
+konkrete eksempler på en instansmetode og en statisk metode.
+	- Statiske metoder:
+		- Statiske metoder er innen en klasse 
+		- Trenger ikke en annen klasse for å kjøre
+		- Jobber kunn med statiske variabler
+	- Instansemetoder: 
+		- De er i forskjellige klasser
+		- Ikke-statisk
+
+	 
+		
+
+	Dette er en instanse metode: 
+	public String skrivUtNavn(){
+ 	 return navn;
+	}
+	
+	1. Den er ikke statisk fordi vi har ikke satt den til static. 
+	2. Denne vil være i en klassen f.eks. bil klassen, så kan du kalle på den via main-klassen. 
+
+	
+	Dette dermed er en statisk metode: 
+	 public static int heltallsdivisjon(int tall1, int tall2){
+   	 int sum2 = tall1/tall2;
+   	 return sum2;
+ 	 }
+
+	1. Den er statisk
+	2. Metoden skrives i og brukes i samme klasse. 	
+	
